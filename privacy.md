@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Promptio — Privacy Policy
+title: CueCaster — Privacy Policy
 ---
 
 <div class="prose">
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: 23 June 2026</p>
+  <p class="updated">Last updated: 7 September 2026</p>
 
-  <p>Promptio ("the app") is developed by Mark Wong ("we", "us"). This policy explains what data the app accesses and how it is used.</p>
+  <p>CueCaster ("the app") is developed by Mark Wong ("we", "us"). This policy explains what data the app accesses and how it is used.</p>
 
   <h2>What We Collect</h2>
 
   <div class="callout">
     <strong>We do not collect, store, or transmit any personal data.</strong>
-    <p>All data created in Promptio — including your scripts, recordings, and settings — is stored locally on your device and never sent to any server.</p>
+    <p>All data created in CueCaster — including your scripts, recordings, and settings — is stored locally on your device and never sent to any server.</p>
   </div>
 
   <h2>Permissions</h2>
@@ -36,6 +36,13 @@ title: Promptio — Privacy Policy
       </div>
     </div>
     <div class="permission-item">
+      <div class="permission-icon">🗣️</div>
+      <div>
+        <strong>Speech Recognition</strong>
+        <p>To scroll your script in time with what you say when Voice Follow is on. Recognition runs on your device — your speech is never sent to us or to Apple.</p>
+      </div>
+    </div>
+    <div class="permission-item">
       <div class="permission-icon">🖼️</div>
       <div>
         <strong>Photos Library</strong>
@@ -47,7 +54,7 @@ title: Promptio — Privacy Policy
   <p>None of this data leaves your device.</p>
 
   <h2>In-App Purchases</h2>
-  <p>Promptio offers optional Pro subscriptions and a lifetime unlock via Apple's StoreKit. Purchase transactions are handled entirely by Apple. We do not receive or store your payment information.</p>
+  <p>CueCaster offers optional Pro subscriptions and a lifetime unlock via Apple's StoreKit. Purchase transactions are handled entirely by Apple. We do not receive or store your payment information.</p>
 
   <h2>Third-Party Services</h2>
   <p>The app does not integrate any third-party analytics, advertising, or tracking SDKs.</p>
