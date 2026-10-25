@@ -1,19 +1,19 @@
 ---
 layout: default
-title: CueCaster — Privacy Policy
+title: CueCaster Privacy Policy
 ---
 
 <div class="prose">
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: 7 September 2026</p>
+  <p class="updated">Last updated: 25 October 2026</p>
 
   <p>CueCaster ("the app") is developed by Mark Wong ("we", "us"). This policy explains what data the app accesses and how it is used.</p>
 
   <h2>What We Collect</h2>
 
   <div class="callout">
-    <strong>We do not collect, store, or transmit any personal data.</strong>
-    <p>All data created in CueCaster — including your scripts, recordings, and settings — is stored locally on your device and never sent to any server.</p>
+    <strong>Your scripts, recordings and settings stay on your device.</strong>
+    <p>We don't collect personal data or keep accounts. The only time text you write leaves your device is when you choose to use a Cloud Assist (see Script Assist Cloud below), and then only the text that Assist works on is sent.</p>
   </div>
 
   <h2>Permissions</h2>
@@ -39,7 +39,7 @@ title: CueCaster — Privacy Policy
       <div class="permission-icon">🗣️</div>
       <div>
         <strong>Speech Recognition</strong>
-        <p>To scroll your script in time with what you say when Voice Follow is on. Recognition runs on your device — your speech is never sent to us or to Apple.</p>
+        <p>To scroll your script in time with what you say when Voice Follow is on. Recognition runs on your device. Your speech is never sent to us or to Apple.</p>
       </div>
     </div>
     <div class="permission-item">
@@ -53,14 +53,36 @@ title: CueCaster — Privacy Policy
 
   <p>None of this data leaves your device.</p>
 
+  <h2>Script Assist Cloud</h2>
+  <p>Cloud Assists are optional AI writing tools (for example Draft, Fit to Time and Make Speakable) for Script Assist Cloud subscribers. The first time you use one, the app asks for your permission before anything is sent.</p>
+
+  <p>When you run a Cloud Assist, the app sends the following to our server:</p>
+  <ul>
+    <li>The text the Assist works on: your Script, or a Draft's Brief.</li>
+    <li>An anonymous purchase ID created by RevenueCat, used to check that you have a subscription and to count the Assists you have left this month.</li>
+    <li>Your App Store country, used to keep costs in line with prices in each country.</li>
+    <li>An Apple App Attest signature, which proves the request came from the real app. It contains nothing about you.</li>
+  </ul>
+
+  <p>Our server passes the text to <strong>DeepSeek</strong> (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.), whose AI model writes the result. DeepSeek processes and stores data in the People's Republic of China. DeepSeek's <a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html">privacy policy</a> says it may use data it receives to train and improve its models. Please don't put information you want to keep private into a Cloud Assist.</p>
+
+  <p>Our server does not store your text. It keeps only numbers: how many Assists each subscription has used this month, and the token counts and cost of Assists per App Store country. Its logs record the result, token counts, cost and country of each Assist, never the text.</p>
+
+  <p>If you don't use Cloud Assists, nothing you write is ever sent anywhere.</p>
+
   <h2>In-App Purchases</h2>
-  <p>CueCaster offers optional Pro subscriptions and a lifetime unlock via Apple's StoreKit. Purchase transactions are handled entirely by Apple. We do not receive or store your payment information.</p>
+  <p>CueCaster offers optional Pro subscriptions and a lifetime unlock via Apple's StoreKit. Purchase transactions are handled by Apple. We use RevenueCat to check which purchases are active, under an anonymous ID it creates. We do not receive or store your payment information.</p>
 
   <h2>Third-Party Services</h2>
-  <p>The app does not integrate any third-party analytics, advertising, or tracking SDKs.</p>
+  <p>The app does not integrate any third-party analytics, advertising, or tracking SDKs. It uses these services:</p>
+  <ul>
+    <li><strong>RevenueCat</strong>, to manage purchases and subscriptions (<a href="https://www.revenuecat.com/privacy">privacy policy</a>).</li>
+    <li><strong>Cloudflare</strong>, which hosts our Script Assist server and handles your IP address to deliver requests (<a href="https://www.cloudflare.com/privacypolicy/">privacy policy</a>).</li>
+    <li><strong>DeepSeek</strong>, which runs Cloud Assists, as described above (<a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html">privacy policy</a>).</li>
+  </ul>
 
   <h2>Children</h2>
-  <p>The app does not knowingly collect data from children or any other users.</p>
+  <p>The app is not directed at children and we do not knowingly collect data from them.</p>
 
   <h2>Changes</h2>
   <p>If this policy changes, the updated version will be posted at the same URL with a revised "Last updated" date.</p>
