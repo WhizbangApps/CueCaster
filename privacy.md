@@ -13,7 +13,7 @@ title: CueCaster Privacy Policy
 
   <div class="callout">
     <strong>Your scripts, recordings and settings stay on your device.</strong>
-    <p>We don't collect personal data or keep accounts. The only time text you write leaves your device is when you choose to use a Cloud Assist (see Script Assist Cloud below), and then only the text that Assist works on is sent.</p>
+    <p>We don't keep accounts or collect personal data ourselves. The only time text you write leaves your device is when you choose to use a Cloud Assist (see Script Assist Cloud below), and then only the text that Assist works on is sent. The free version shows ads from Google (see Advertising below).</p>
   </div>
 
   <h2>Permissions</h2>
@@ -53,7 +53,12 @@ title: CueCaster Privacy Policy
 
   <p>None of this data leaves your device.</p>
 
-  <h2>Script Assist Cloud</h2>
+  <h2>Script Assist</h2>
+  <p>Script Assist helps you write and edit scripts. It runs in one of two ways.</p>
+
+  <p><strong>On-device Assists</strong> (included with Pro on devices with Apple Intelligence) run on Apple's on-device model. Your text never leaves your device.</p>
+
+  <h3>Script Assist Cloud</h3>
   <p>Cloud Assists are optional AI writing tools (for example Draft, Fit to Time and Make Speakable) for Script Assist Cloud subscribers. The first time you use one, the app asks for your permission before anything is sent.</p>
 
   <p>When you run a Cloud Assist, the app sends the following to our server:</p>
@@ -73,9 +78,19 @@ title: CueCaster Privacy Policy
   <h2>In-App Purchases</h2>
   <p>CueCaster offers optional Pro subscriptions and a lifetime unlock via Apple's StoreKit. Purchase transactions are handled by Apple. We use RevenueCat to check which purchases are active, under an anonymous ID it creates. We do not receive or store your payment information.</p>
 
-  <h2>Third-Party Services</h2>
-  <p>The app does not integrate any third-party analytics, advertising, or tracking SDKs. It uses these services:</p>
+  <h2>Advertising</h2>
+  <p>The free version of CueCaster shows a banner ad served by Google AdMob. Pro removes ads.</p>
   <ul>
+    <li>In the European Economic Area, the UK and Switzerland, the app first shows Google's consent form. You can change your choice at any time in Settings, under Support, Privacy Choices.</li>
+    <li>The app may ask for permission to track you (Apple's App Tracking Transparency). In the European Economic Area, the UK and Switzerland it asks only if you agree to personalised ads on Google's form. If you say no, ads are not personalised and your device's advertising identifier is not shared.</li>
+    <li>To serve and measure ads, Google may collect your IP address, device and app information, and how you interact with ads. Google's <a href="https://policies.google.com/technologies/partner-sites">policy on partner apps</a> explains how it uses this data.</li>
+  </ul>
+  <p>We don't use analytics SDKs.</p>
+
+  <h2>Third-Party Services</h2>
+  <p>The app uses these services:</p>
+  <ul>
+    <li><strong>Google AdMob</strong>, to show ads in the free version, as described above (<a href="https://policies.google.com/privacy">privacy policy</a>).</li>
     <li><strong>RevenueCat</strong>, to manage purchases and subscriptions (<a href="https://www.revenuecat.com/privacy">privacy policy</a>).</li>
     <li><strong>Cloudflare</strong>, which hosts our Script Assist server and handles your IP address to deliver requests (<a href="https://www.cloudflare.com/privacypolicy/">privacy policy</a>).</li>
     <li><strong>DeepSeek</strong>, which runs Cloud Assists, as described above (<a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html">privacy policy</a>).</li>
@@ -88,5 +103,5 @@ title: CueCaster Privacy Policy
   <p>If this policy changes, the updated version will be posted at the same URL with a revised "Last updated" date.</p>
 
   <h2>Contact</h2>
-  <p>Questions? Email us at <a href="mailto:whizb.apps@gmail.com">whizb.apps@gmail.com</a></p>
+  <p>Questions? Email us at <a href="mailto:hello@whizbangapps.dev">hello@whizbangapps.dev</a></p>
 </div>
